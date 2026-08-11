@@ -1,0 +1,31 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "guardrail",
+  "description": "Seungho's Claude Code plugin marketplace — one add-command for both fe-rail (frontend spec→build→review→PR harness) and self-improvement (evidence-gated convention repair loop).",
+  "owner": {
+    "name": "Seungho",
+    "email": "seungho5623@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fe-rail",
+      "description": "Harness dedicated to frontend projects. Supports Next.js App Router / Vite SPA + TypeScript, Tailwind v3/v4, shadcn/ui. Automates the spec→build→review→PR cycle.",
+      "category": "engineering",
+      "tags": ["frontend", "nextjs", "typescript", "harness", "workflow"],
+      "source": {
+        "source": "github",
+        "repo": "sh5623/fe-rail"
+      }
+    },
+    {
+      "name": "self-improvement",
+      "description": "Conventions that fix themselves — evidence-gated convention repair loop plus a budget/archive system for bloated rule docs. Stack-agnostic (FE/BE/scripts/docs).",
+      "category": "engineering",
+      "tags": ["conventions", "self-improvement", "documentation", "workflow", "harness"],
+      "source": {
+        "source": "github",
+        "repo": "sh5623/self-improvement"
+      }
+    }
+  ]
+}
