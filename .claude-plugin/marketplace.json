@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
   "name": "guardrail",
-  "description": "Seungho's Claude Code plugin marketplace — one add-command for both fe-rail (frontend spec→build→review→PR harness) and self-improvement (evidence-gated convention repair loop).",
+  "description": "Seungho's Claude Code plugin marketplace — fe-rail (frontend spec→build→review→PR harness), self-improvement (evidence-gated convention repair loop), and parallel-worktree (parallel subagents in isolated worktrees).",
   "owner": {
     "name": "Seungho",
     "email": "seungho5623@gmail.com"
@@ -11,7 +11,13 @@
       "name": "fe-rail",
       "description": "Harness dedicated to frontend projects. Supports Next.js App Router / Vite SPA + TypeScript, Tailwind v3/v4, shadcn/ui. Automates the spec→build→review→PR cycle.",
       "category": "engineering",
-      "tags": ["frontend", "nextjs", "typescript", "harness", "workflow"],
+      "tags": [
+        "frontend",
+        "nextjs",
+        "typescript",
+        "harness",
+        "workflow"
+      ],
       "source": {
         "source": "github",
         "repo": "sh5623/fe-rail"
@@ -21,10 +27,33 @@
       "name": "self-improvement",
       "description": "Conventions that fix themselves — evidence-gated convention repair loop plus a budget/archive system for bloated rule docs. Stack-agnostic (FE/BE/scripts/docs).",
       "category": "engineering",
-      "tags": ["conventions", "self-improvement", "documentation", "workflow", "harness"],
+      "tags": [
+        "conventions",
+        "self-improvement",
+        "documentation",
+        "workflow",
+        "harness"
+      ],
       "source": {
         "source": "github",
         "repo": "sh5623/self-improvement"
+      }
+    },
+    {
+      "name": "parallel-worktree",
+      "description": "Run subagents in parallel across isolated git worktrees and harvest the finished ones upstream — bootstrap, dispatch, harvest, and the failure modes a green gate cannot see. Harness- and stack-agnostic.",
+      "category": "engineering",
+      "tags": [
+        "git-worktree",
+        "parallel",
+        "subagents",
+        "orchestration",
+        "workflow",
+        "harness"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "sh5623/parallel-worktree"
       }
     }
   ]
