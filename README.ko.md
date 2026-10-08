@@ -15,7 +15,7 @@
 | **fe-rail** | 프론트엔드 하네스 — Next.js App Router / Vite SPA + TypeScript, Tailwind v3/v4, shadcn/ui 대상 spec → build → review → PR 사이클 자동화 | [sh5623/fe-rail](https://github.com/sh5623/fe-rail) |
 | **self-improvement** | 근거 기반(evidence-gated) 컨벤션 수선 루프 + 룰 문서가 무한정 커지지 않도록 하는 예산/아카이브 체계. 스택 무관 | [sh5623/self-improvement](https://github.com/sh5623/self-improvement) |
 | **parallel-worktree** | 격리 git 워크트리에서 서브에이전트를 병렬로 돌리고 수확하는 파이프라인 — 부트스트랩·투입·수확, 그리고 게이트가 초록인 채로 실패하는 지점들. 스킬 단독, 스택 무관 | [sh5623/parallel-worktree](https://github.com/sh5623/parallel-worktree) |
-| **e2e-rail** | 변경 기반 Playwright E2E — 변경이 닿는 spec 만 돌리고 판정이 불확실하면 전수로 넓힌다. 모든 실행을 코드 지문과 함께 기록해 낡은 초록을 재사용하지 않고, 믿기 전에 섀도 모드로 선택과 전수를 대조하며, 실측 시간으로 샤드를 나눈다. 레포에 CLI 설치 필요: `pnpm add -D github:sh5623/e2e-rail#v0.2.0` | [sh5623/e2e-rail](https://github.com/sh5623/e2e-rail) |
+| **e2e-rail** | 변경 기반 Playwright E2E — 변경이 닿는 spec 만 돌리고 판정이 불확실하면 전수로 넓힌다. 모든 실행을 코드 지문과 함께 기록해 낡은 초록을 재사용하지 않고, 믿기 전에 섀도 모드로 선택과 전수를 대조하며, 실측 시간으로 샤드를 나눈다. 레포에 CLI 설치 필요: `pnpm add -D github:sh5623/e2e-rail#v0.2.1` | [sh5623/e2e-rail](https://github.com/sh5623/e2e-rail) |
 
 각 플러그인은 버전·릴리스·README를 자기 레포에서 그대로 유지한다 — `guardrail`은 그걸 가리키기만 한다. 하나만 필요하면 `sh5623/fe-rail`·`sh5623/self-improvement`·`sh5623/parallel-worktree`·`sh5623/e2e-rail` 중 해당 레포로 직접 설치해도 여전히 동작한다.
 
