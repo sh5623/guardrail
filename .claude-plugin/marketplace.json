@@ -58,7 +58,7 @@
     },
     {
       "name": "e2e-rail",
-      "description": "Change-aware Playwright E2E — runs only the specs a change can reach (widening to a full run whenever unsure), records every run against a code fingerprint so a stale green is never reused, and shards by measured durations. Skills drive the e2e-rail CLI installed in the repo (pnpm add -D github:sh5623/e2e-rail#v0.2.1).",
+      "description": "Change-aware Playwright E2E — runs only the specs a change can reach (widening to a full run whenever unsure), records every run against a code fingerprint so a stale green is never reused, and shards by measured durations. Skills drive the e2e-rail CLI installed in the repo (pnpm add -D github:sh5623/e2e-rail#v0.2.2).",
       "category": "engineering",
       "tags": [
         "e2e",
